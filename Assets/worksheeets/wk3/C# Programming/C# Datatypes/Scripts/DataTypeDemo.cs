@@ -6,8 +6,14 @@ namespace ProjectNamespace1
 
     public class DataTypeDemo : MonoBehaviour
     {
+        private void Start()
+        {
+            Debug.Log("Data Types Demo");
+        }
+    }
+}
 
-        // Start is called once before the first execution of Update after the MonoBehaviour is created
+        /* Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
         {
 
@@ -20,3 +26,4 @@ namespace ProjectNamespace1
         }
     }
 }
+*/
